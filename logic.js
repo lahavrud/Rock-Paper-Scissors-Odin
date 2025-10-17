@@ -4,3 +4,9 @@ function getComputerChoise() {
     return choices[randIndex];
 }
 
+function getHumanChoise() {
+    let choice = prompt("Enter Your Choise: rock | paper | scissors");
+    return choice;
+}
+
+console.log(getHumanChoise())
